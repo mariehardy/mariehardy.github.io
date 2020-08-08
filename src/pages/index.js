@@ -4,10 +4,12 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic1 from '../assets/images/IMG_8281-1.jpg';
+import pic2 from '../assets/images/allmyplantslanding.jpg';
+import pic3 from '../assets/images/monkandmonkey.jpg';
+import ironLogo from '../assets/images/logo_ironhack_blue@3x.png';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -18,7 +20,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                Portfolio
               </a>
             </Scroll>
           </li>
@@ -35,19 +37,23 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            A LITTLE ABOUT ME
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+          Frontend developer with background in Graphic Design and Quality Assurance.
+            <br /><br />
+            React, JavaScript, Node.js, Mongo DB, CSS & HTML
+            </p>
+            
+            <div className="image">
+              <img src={ironLogo} alt="Ironhack" height="100px" width="100px" />
+           </div>    
+           <p>        
+            Graduate of Ironhack
           </p>
+          
         </header>
-        <ul className="icons major">
+        {/* <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
               <span className="label">Lorem</span>
@@ -63,7 +69,17 @@ const IndexPage = () => (
               <span className="label">Dolor</span>
             </span>
           </li>
-        </ul>
+        </ul> */}
+      </div>
+    </section>
+
+    <section id="projects" className="wrapper style1 special">
+      <div className="inner">
+        <header className="major">
+          <h2>
+            PROJECTS
+          </h2>
+        </header>
       </div>
     </section>
 
@@ -74,13 +90,12 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            ShapeIT
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          Social Fitness Platform to build healthy habits. 
+          Contains 30-day video-based fitness program, nutrition 
+          basics and the opportunity to make a donation to a good cause.
           </p>
         </div>
       </section>
@@ -90,13 +105,11 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            all my plants
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          Virtual garden to keep track of all the plants you have at home 
+          and their specific care requirements.
           </p>
         </div>
       </section>
@@ -106,13 +119,11 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            Monk & Monkey
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          Retro game in which you are a monk who must bring 
+          an offering to Buddha Keanu Reeves&mdash;watch out for the monkeys!
           </p>
         </div>
       </section>
