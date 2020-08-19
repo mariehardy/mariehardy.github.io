@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -18,7 +19,7 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
+            <Scroll type="id" element="two">
               <a href="/#" className="button primary">
                 Portfolio
               </a>
@@ -73,7 +74,10 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="projects" className="wrapper style1 special">
+
+    <section id="two" className="wrapper alt style2">
+      <section className="spotlight">
+
       <div className="inner">
         <header className="major">
           <h2>
@@ -81,14 +85,12 @@ const IndexPage = () => (
           </h2>
         </header>
       </div>
-    </section>
-
-    <section id="two" className="wrapper alt style2">
-      <section className="spotlight">
+      
         <div className="image">
           <img src={pic1} alt="" />
         </div>
         <div className="content">
+        <Link to="/Project1">
           <h2>
             ShapeIT
           </h2>
@@ -97,6 +99,7 @@ const IndexPage = () => (
           Contains 30-day video-based fitness program, nutrition 
           basics and the opportunity to make a donation to a good cause.
           </p>
+        </Link>
         </div>
       </section>
       <section className="spotlight">
@@ -104,6 +107,7 @@ const IndexPage = () => (
           <img src={pic2} alt="" />
         </div>
         <div className="content">
+        <Link to="/Project2">
           <h2>
             all my plants
           </h2>
@@ -111,6 +115,7 @@ const IndexPage = () => (
           Virtual garden to keep track of all the plants you have at home 
           and their specific care requirements.
           </p>
+          </Link>
         </div>
       </section>
       <section className="spotlight">
@@ -118,6 +123,7 @@ const IndexPage = () => (
           <img src={pic3} alt="" />
         </div>
         <div className="content">
+        <Link to="/Project3">
           <h2>
             Monk & Monkey
           </h2>
@@ -125,6 +131,7 @@ const IndexPage = () => (
           Retro game in which you are a monk who must bring 
           an offering to Buddha Keanu Reeves&mdash;watch out for the monkeys!
           </p>
+          </Link>
         </div>
       </section>
     </section>

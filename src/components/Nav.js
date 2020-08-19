@@ -14,7 +14,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
             }}
             className="menuToggle"
           >
-            <span>Menu</span>
+            {/* <span>Menu</span> */}
           </a>
           <div id="menu">
             <ul>
@@ -22,7 +22,16 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/Generic">Generic Page</Link>
+                <Link to="/Project1">Project 1</Link>
+              </li>
+              <li>
+                <Link to="/Project2">Project 2</Link>
+              </li>
+              <li>
+                <Link to="/Project3">Project 3</Link>
+              </li>
+              <li>
+                <Link to="/About">About</Link>
               </li>
               <li>
                 <Link to="/Elements">Elements</Link>
