@@ -41,17 +41,21 @@ const IndexPage = () => (
             A LITTLE ABOUT ME
           </h2>
           <p>
-          Frontend developer with background in Graphic Design and Quality Assurance.
-            <br /><br />
-            React, JavaScript, Node.js, Mongo DB, CSS & HTML
-            </p>
+          Hey. I'm a Frontend developer with a background in Graphic Design and Quality Assurance.
+          </p>
+          <p>
+          Stack: React, JavaScript, Node.js, Mongo DB, CSS & HTML
+          </p>
+            
             
             <div className="image">
               <img src={ironLogo} alt="Ironhack" height="100px" width="100px" />
            </div>    
            <p>        
-            Graduate of Ironhack
+            Graduate of Ironhack Web<br /><br />Dev Bootcamp
           </p>
+
+          <Link to="/About">Want to know more?</Link>
           
         </header>
         {/* <ul className="icons major">
@@ -87,7 +91,9 @@ const IndexPage = () => (
       </div>
       
         <div className="image">
+        <Link to="/Project1">
           <img src={pic1} alt="" />
+        </Link>
         </div>
         <div className="content">
         <Link to="/Project1">
@@ -136,7 +142,7 @@ const IndexPage = () => (
       </section>
     </section>
 
-    <section id="three" className="wrapper style3 special">
+    {/* <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
           <h2>Accumsan mus tortor nunc aliquet</h2>
@@ -193,29 +199,48 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Contact me</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            Happy to have a chat about a new project idea, a job offer, or the weather.
           </p>
         </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
+        
+					<h4>Form</h4>
+					<form method="post" action="mailto:mariepascalehardy@gmail.com">
+						<div className="row gtr-uniform">
+							<div className="col-6 col-12-xsmall">
+								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
+							</div>
+							<div className="col-6 col-12-xsmall">
+								<input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
+							</div>
+							
+							<div className="col-12">
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+              <div className="col-6 col-12-small">
+								<input type="checkbox" id="demo-copy" name="demo-copy" />
+								<label htmlFor="demo-copy">Email me a copy</label>
+							</div>
+							<div className="col-6 col-12-small">
+								<input type="checkbox" id="demo-human" name="demo-human" defaultChecked />
+								<label htmlFor="demo-human">Not a robot</label>
+							</div>
+							<div className="col-12">
+								<ul className="actions">
+									<li><input type="submit" value="Send Message" className="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+              
+						</div>
+					</form>
+        
       </div>
     </section>
   </Layout>
