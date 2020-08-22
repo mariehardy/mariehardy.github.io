@@ -110,7 +110,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
+        <Link to="/Project2">
           <img src={pic2} alt="" />
+        </Link>
         </div>
         <div className="content">
         <Link to="/Project2">
@@ -126,7 +128,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
+        <Link to="/Project3">
           <img src={pic3} alt="" />
+        </Link>
         </div>
         <div className="content">
         <Link to="/Project3">
