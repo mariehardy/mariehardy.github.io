@@ -1,7 +1,8 @@
 import React from 'react';
-import pic1 from '../assets/images/IMG_8281-1.jpg';
-import pic2 from '../assets/images/allmyplantslanding.jpg';
-import pic3 from '../assets/images/monkandmonkey.jpg';
+import plantyPic1 from '../assets/images/allmyplants-01.png';
+import plantyPic2 from '../assets/images/allmyplants-02.png';
+import plantyPic3 from '../assets/images/allmyplants-03.png';
+import plantyPic4 from '../assets/images/allmyplants-04.png';
 
 import Layout from '../components/Layout';
 
@@ -15,7 +16,7 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <p>
-          Virtual garden to keep track of all the plants you have at home and their specific care requirements.
+          Virtual garden to keep track of the plants you have at home and their specific care requirements.
           <hr />
           Technologies: Node.js, Express, MongoDB, Javascript, HTML, CSS
           <br />
@@ -38,17 +39,11 @@ const IndexPage = () => (
       <section>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-						</div>
+						<div className="col-12"><span className="image fit"><img src={plantyPic1} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={plantyPic3} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={plantyPic4} alt="" /></span></div>
+              <div className="col-4"><span className="image fit"><img src={plantyPic2} alt="" /></span></div>
+          	</div>
 					</div>
 			</section>
 
