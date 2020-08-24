@@ -19,7 +19,7 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="two">
+            <Scroll type="id" element="projects">
               <a href="/#" className="button primary">
                 Portfolio
               </a>
@@ -38,21 +38,26 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            A LITTLE ABOUT ME
+            About Me
           </h2>
           <p>
-          Hey. I'm a Frontend developer with a background in Graphic Design and Quality Assurance.
+          Hey. I'm a Frontend developer with fullstack abilities with a background in Graphic Design and Quality Assurance.
+          {/* My ability to communicate and adapt to a constantly changing 
+          environment makes me an asset on team projects and in leadership roles. 
+          My undergraduate training in Anthropology enables me to approach 
+          challenges from multiple angles while producing curated solutions 
+          to the objectives at hand. */}
+        
           </p>
           <p>
-          Stack: React, JavaScript, Node.js, Mongo DB, CSS & HTML
+          myStack: React, Redux, JavaScript, Typescript, Node.js, Mongo DB, CSS & HTML
           </p>
-            
-            
+
             <div className="image">
               <img src={ironLogo} alt="Ironhack" height="100px" width="100px" />
            </div>    
            <p>        
-            Graduate of Ironhack Web<br /><br />Dev Bootcamp
+            Graduate of Ironhack Web Dev Bootcamp
           </p>
 
           <Link to="/About">Want to know more?</Link>
@@ -78,18 +83,16 @@ const IndexPage = () => (
       </div>
     </section>
 
+    <section id="projects" className="wrapper style4">
+      <div className="inner">
+      <header className="major"> 
+          <h2>PROJECTS</h2>
+        </header>
+        </div>
+        </section>
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
-
-      <div className="inner">
-        <header className="major">
-          <h2>
-            PROJECTS
-          </h2>
-        </header>
-      </div>
-      
         <div className="image">
         <Link to="/Project1">
           <img src={pic1} alt="" />
@@ -105,6 +108,7 @@ const IndexPage = () => (
           Contains 30-day video-based fitness program, nutrition 
           basics and the opportunity to make a donation to a good cause.
           </p>
+          <Link to="/Project1">More details</Link>
         </Link>
         </div>
       </section>
@@ -123,6 +127,7 @@ const IndexPage = () => (
           Virtual garden to keep track of all the plants you have at home 
           and their specific care requirements.
           </p>
+          <Link to="/Project2">More details</Link>
           </Link>
         </div>
       </section>
@@ -141,6 +146,7 @@ const IndexPage = () => (
           Retro game in which you are a monk who must bring 
           an offering to Buddha Keanu Reeves&mdash;watch out for the monkeys!
           </p>
+          <Link to="/Project3">More details</Link>
           </Link>
         </div>
       </section>
@@ -207,14 +213,13 @@ const IndexPage = () => (
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
-        <header>
-          <h2>Contact me</h2>
-          <p>
-            Happy to have a chat about a new project idea, a job offer, or the weather.
-          </p>
-        </header>
+      <header className="major"> 
+        <h2>Contact me</h2>
+        <p>
+          Happy to have a chat about a new project idea, a job offer, or the weather.
+        </p>
+      </header>
         
-					<h4>Form</h4>
 					<form method="post" action="mailto:mariepascalehardy@gmail.com">
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
@@ -232,7 +237,9 @@ const IndexPage = () => (
 								<label htmlFor="demo-copy">Email me a copy</label>
 							</div>
 							<div className="col-6 col-12-small">
-								<input type="checkbox" id="demo-human" name="demo-human" defaultChecked />
+								<input type="checkbox" id="demo-human" name="demo-human" 
+                // defaultChecked 
+                />
 								<label htmlFor="demo-human">Not a robot</label>
 							</div>
 							<div className="col-12">

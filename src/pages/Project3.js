@@ -34,6 +34,14 @@ const IndexPage = () => (
             className="button primary fit">Visit Website</a></li>
             <li></li>
 					</ul>
+          <ul className="actions fit">
+          <li></li>
+						<li><a href="https://github.com/mariehardy/monk-and-monkey"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button fit">Github</a></li>
+            <li></li>
+					</ul>
         </div>
       </section>
 
