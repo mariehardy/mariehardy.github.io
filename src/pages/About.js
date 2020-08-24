@@ -2,6 +2,8 @@ import React from 'react';
 import pic1 from '../assets/images/IMG_8281-1.jpg';
 import pic2 from '../assets/images/allmyplantslanding.jpg';
 import pic3 from '../assets/images/monkandmonkey.jpg';
+import ironLogo from '../assets/images/logo_ironhack_blue@3x.png';
+
 
 import config from '../../config';
 
@@ -16,43 +18,48 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <p>
-          Frontend developer with full-stack capacities, with a background in graphic design (web & print) and QA engineering.
+          I'm a Frontend developer with fullstack abilities. 
+          I have a strong background in Graphic Design (web  & print) 
+          and three years of experience as Quality Assurance Engineer 
+          in an Agile environment. 
+          <br /><br />
+          <a href="https://drive.google.com/file/d/1owDyUME9is2mWMitQ2bZ_Op7OkQyFlw-/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+            Take a look at my CV.
+          </a>
           <hr />
-          Technologies: React, Javascript, Node.js, Express, MongoDB, HTML, CSS
+          myStack: React, Redux, JavaScript, Typescript, Node.js, Mongo DB, CSS & HTML
+          </p>
+          <div className="image">
+              <img src={ironLogo} alt="Ironhack" height="100px" width="100px" />
+           </div>    
+           <p>        
+            Graduate of Ironhack Web Dev Bootcamp
           </p>
           <br />
+
+          <section id="abouticons">
           <ul className="icons">
         {config.socialLinks.map(social => {
           const { style, icon, name, url } = social;
           return (
             <li key={url}>
-              <a href={url} className={`icon ${style} ${icon}`}>
+              <a href={url} className={`icon ${style} ${icon}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span className="label">{name}</span>
               </a>
             </li>
           );
         })}
       </ul>
+      </section>
+      
         </div>
       </section>
-
-      <section>
-					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-						</div>
-					</div>
-			</section>
-
 
     </article>
   </Layout>

@@ -20,6 +20,8 @@ const IndexPage = () => (
           <p>
           ShapeIT provides a 30-day video-based fitness program, nutrition 
           basics and the opportunity to make a donation to the good cause of your choice.
+          <br /><br />
+          ** Winner of 2nd Prize &ndash; Hackshow Berlin August 2020 **
           <hr />
           Technologies: React, Javascript, Node.js, Express, MongoDB, HTML, CSS
           <br />
@@ -37,6 +39,15 @@ const IndexPage = () => (
             className="button primary fit">Visit Website</a></li>
             <li></li>
 					</ul>
+          <ul className="actions fit">
+          <li></li>
+						<li><a href="https://github.com/mariehardy/ShapeIT"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button fit">Github</a></li>
+            <li></li>
+					</ul>
+          
         </div>
       </section>
       <br /> <br />
