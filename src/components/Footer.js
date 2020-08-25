@@ -25,7 +25,7 @@ export default function Footer() {
       
       <ul className="copyright">
         <li>
-          Background photo &copy; hardy &ndash; Jaigarh Fort, India, 2018.
+          Background photo &copy; hardy &ndash; Wall of Jaigarh Fort, India, 2018.
         </li>
         <li> built using &copy; spectral template by <a href="http://html5up.net">HTML5 UP</a></li>
         

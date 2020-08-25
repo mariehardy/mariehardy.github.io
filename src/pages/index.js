@@ -40,27 +40,45 @@ const IndexPage = () => (
           <h2>
             About Me
           </h2>
-          <p>
-          Hey. I'm a Frontend developer with fullstack abilities with a background in Graphic Design and Quality Assurance.
-          {/* My ability to communicate and adapt to a constantly changing 
-          environment makes me an asset on team projects and in leadership roles. 
-          My undergraduate training in Anthropology enables me to approach 
-          challenges from multiple angles while producing curated solutions 
-          to the objectives at hand. */}
-        
+          <p className="align-left">
+          I'm a Frontend developer with fullstack abilities. 
+          I have a strong background in Graphic Design (web  & print) 
+          and three years of experience as Quality Assurance Engineer 
+          in an Agile environment. 
           </p>
           <p>
-          myStack: React, Redux, JavaScript, Typescript, Node.js, Mongo DB, CSS & HTML
+          <a href="https://drive.google.com/file/d/1owDyUME9is2mWMitQ2bZ_Op7OkQyFlw-/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+            Take a look at my CV.
+          </a>
           </p>
-
+          <hr />
+          <ul className="actions fit">
+            <li></li>
+						<li>
+             <p className="align-left">        
+             <strong>myStack: </strong> 
+             <br /><br /> 
+              React, Redux, JavaScript, Typescript, Node.js, Mongo DB, CSS & HTML
+             </p>
+             </li>
+             <li></li>
+          </ul>
+          
+          <ul className="actions fit">
+            <li></li>
+						<li>
             <div className="image">
-              <img src={ironLogo} alt="Ironhack" height="100px" width="100px" />
-           </div>    
-           <p>        
-            Graduate of Ironhack Web Dev Bootcamp
-          </p>
-
-          <Link to="/About">Want to know more?</Link>
+            <img src={ironLogo} alt="Ironhack" height="90px" width="90px" />
+            </div>    
+             <p className="align-left">        
+             Graduate of Ironhack Berlin - Web Dev Bootcamp
+             </p>
+             </li>
+             <li></li>
+          </ul>
           
         </header>
         {/* <ul className="icons major">
