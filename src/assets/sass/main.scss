@@ -1059,6 +1059,8 @@
 	.spotlight {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
+		background-color: darken(transparentize(_palette(bg), 0.3), 8);
+
 
 		.image {
 			@include vendor('order', '1');
@@ -1082,13 +1084,13 @@
 			@include vendor('flex-direction', 'row-reverse');
 		}
 
-		@for $i from 1 through _misc(max-spotlights) {
-			$j: 0.075 * $i;
+		// @for $i from 1 through _misc(max-spotlights) {
+		// 	$j: 0.075 * $i;
 
-			&:nth-child(#{$i}) {
-				background-color: rgba(0,0,0, $j);
-			}
-		}
+		// 	&:nth-child(#{$i}) {
+		// 		background-color: rgba(0,0,0, 0.075); // ORIGINAL: (0,0,0, $j)
+		// 	}
+		// }
 
 		@include breakpoint('<=large') {
 			.image {
@@ -1320,6 +1322,7 @@
 
 	.wrapper {
 		@include padding(6em, 0);
+		background-color: darken(transparentize(_palette(bg), 0.9), 8);
 
 		> .inner {
 			width: 60em;
@@ -1340,10 +1343,14 @@
 
 		&.style1 {
 			@include wrapper(accent1);
+			background-color: darken(transparentize(_palette(bg), 0.3), 8);
+
 		}
 
 		&.style2 {
-			background-color: _palette(bg);
+			// background-color: _palette(bg);
+			// background-color: darken(transparentize(_palette(bg), 0.3), 8);
+
 		}
 
 		&.style3 {
@@ -1967,7 +1974,7 @@
 		}
 
 		#footer {
-			background-color: darken(transparentize(_palette(bg), 0.1), 8);
+			background-color: darken(transparentize(_palette(bg), 0.3), 8);
 		}
 	}
 
