@@ -23,7 +23,7 @@ const IndexPage = () => (
           </p> 
           <hr />
           <p>
-          Technologies: avascript, Canvas, HTML & CSS
+          Technologies: Javascript, Canvas, HTML & CSS
           </p>
           <br />
           <ul className="actions fit">
@@ -56,6 +56,16 @@ const IndexPage = () => (
 					</div>
 			</section>
 
+      <section>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+						<div className="col-12"></div>
+							<div className="col-4"></div>
+							<div className="col-4"></div>
+							<div className="col-4"></div>
+    						</div>
+					</div>
+			</section>
 
     </article>
   </Layout>

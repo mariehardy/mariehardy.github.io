@@ -3,10 +3,6 @@ import config from '../../config';
 export default function Footer() {
   return (
     <footer id="footer">
-    <ul className="copyright">
-    <li>Reach out to me</li>
-    </ul>
-    <br />
       <ul className="icons">
         {config.socialLinks.map(social => {
           const { style, icon, name, url } = social;

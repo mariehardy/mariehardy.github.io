@@ -18,10 +18,11 @@ const IndexPage = () => (
           <p>
           Virtual garden to keep track of the plants you have at home and their specific care requirements.
           <hr />
-          Technologies: Node.js, Express, MongoDB, Javascript, HTML, CSS
+          Technologies: Figma, Adobe Photoshop & Illustrator, Javascript, HTML, CSS, Node.js, Express, MongoDB 
           <br />
           Plant search engine powered by Trefle's open, freely accessible botanical data source and REST API.
           <br /><br />
+          I worked mainly on the Frontend and on design on this project.
           Developed in collaboration with Camille Ory and Manuel Bürgel.
           </p>
           <br />
@@ -55,6 +56,16 @@ const IndexPage = () => (
 					</div>
 			</section>
 
+      <section>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+						<div className="col-12"></div>
+							<div className="col-4"></div>
+							<div className="col-4"></div>
+							<div className="col-4"></div>
+    						</div>
+					</div>
+			</section>
 
     </article>
   </Layout>
