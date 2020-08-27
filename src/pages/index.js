@@ -46,7 +46,7 @@ const IndexPage = () => (
           My background in Graphic Design and Quality Assurance 
           Engineering gave me a razor-sharp eye for detail 
           and an understanding of Agile methodology. 
-          I am eager to join a team where I can contribute 
+          Eager to join a team where I can contribute 
           with my creative and quality-oriented approach. 
           </p>
           <p>
@@ -115,7 +115,7 @@ const IndexPage = () => (
             all my plants
           </h2>
           <p>
-          Virtual garden to keep track of all the plants you have at home 
+          Virtual garden to keep track of the plants you have at home 
           and their specific care requirements.
           </p>
           <Link to="/Project2">More details</Link>
@@ -149,11 +149,29 @@ const IndexPage = () => (
       <header className="major"> 
         <h2>Contact me</h2>
         <p>
-          Happy to have a chat about a new project idea, a job offer, or the weather.
+          Happy to have a chat about a new project idea, a job offer, or any metaphysical concerns.
         </p>
+        <a href='mailto:mariepascalehardy@gmail.com' 
+        target="_blank"
+        rel="noopener noreferrer">
+        Email me 
+        </a> 
+        &nbsp;or find me on&nbsp;
+        <a href='https://github.com/mariehardy' 
+        target="_blank"
+        rel="noopener noreferrer">
+         Github 
+        </a>
+        &nbsp;or&nbsp;
+         <a href='https://www.linkedin.com/in/hardy-marie/' 
+        target="_blank"
+        rel="noopener noreferrer">
+         LinkedIn
+        </a>
+        .
       </header>
         
-					<form method="post" action="mailto:mariepascalehardy@gmail.com">   
+					{/* <form method="post" action="mailto:mariepascalehardy@gmail.com">   
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
 								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
@@ -183,7 +201,7 @@ const IndexPage = () => (
 							</div>
               
 						</div>
-					</form>
+					</form> */}
         
       </div>
     </section>

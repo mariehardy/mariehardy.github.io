@@ -27,6 +27,7 @@ const IndexPage = () => (
           <br />
           Integrated donation feature via Pledgeling APIs. 
           <br /><br />
+          I worked on the Backend as well as the Frontend on this project.
           Developed in collaboration Olga Knyazkova.
           {/* Currently working on the mobile native prototype with React Native. */}
           </p>
@@ -62,6 +63,16 @@ const IndexPage = () => (
 					</div>
 			</section>
 
+      <section>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+						<div className="col-12"></div>
+							<div className="col-4"></div>
+							<div className="col-4"></div>
+							<div className="col-4"></div>
+    						</div>
+					</div>
+			</section>
 
     </article>
   </Layout>
