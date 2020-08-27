@@ -11,6 +11,7 @@ import pic3 from '../assets/images/monkandmonkey.jpg';
 import ironLogo from '../assets/images/logo_ironhack_blue@3x.png';
 import config from '../../config';
 
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -42,12 +43,14 @@ const IndexPage = () => (
           </h2>
           <p className="align-left">
           I'm a Frontend developer with fullstack abilities. 
-          I have a strong background in Graphic Design (web  & print) 
-          and three years of experience as Quality Assurance Engineer 
-          in an Agile environment. 
+          My background in Graphic Design and Quality Assurance 
+          Engineering gave me a razor-sharp eye for detail 
+          and an understanding of Agile methodology. 
+          I am eager to join a team where I can contribute 
+          with my creative and quality-oriented approach. 
           </p>
           <p>
-          <a href="https://drive.google.com/file/d/1owDyUME9is2mWMitQ2bZ_Op7OkQyFlw-/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/16nm1dAGh-NvrCdnqE7x8EqVERB_5PoE9/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -55,49 +58,18 @@ const IndexPage = () => (
           </a>
           </p>
           <hr />
-          <ul className="actions fit">
-            <li></li>
-						<li>
-             <p className="align-left">        
-             <strong>myStack: </strong> 
-             <br /><br /> 
-              React, Redux, JavaScript, Typescript, Node.js, Mongo DB, CSS & HTML
-             </p>
-             </li>
-             <li></li>
-          </ul>
-          
-          <ul className="actions fit">
-            <li></li>
-						<li>
+          <p>      
+            <strong>myStack = </strong>
+            React, JavaScript, Typescript, Redux, Node.js, Mongo DB, CSS & HTML
+          </p>
             <div className="image">
             <img src={ironLogo} alt="Ironhack" height="90px" width="90px" />
-            </div>    
-             <p className="align-left">        
+            </div>   
+            <br /><br /> 
+             <p>        
              Graduate of Ironhack Berlin - Web Dev Bootcamp
              </p>
-             </li>
-             <li></li>
-          </ul>
-          
         </header>
-        {/* <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul> */}
       </div>
     </section>
 
@@ -130,6 +102,7 @@ const IndexPage = () => (
         </Link>
         </div>
       </section>
+
       <section className="spotlight">
         <div className="image">
         <Link to="/Project2">
@@ -170,65 +143,7 @@ const IndexPage = () => (
       </section>
     </section>
 
-    {/* <section id="three" className="wrapper style3 special">
-      <div className="inner">
-        <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
-        </header>
-        <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section> */}
-
+    
     <section id="cta" className="wrapper style4">
       <div className="inner">
       <header className="major"> 
@@ -238,7 +153,7 @@ const IndexPage = () => (
         </p>
       </header>
         
-					<form method="post" action="mailto:mariepascalehardy@gmail.com">
+					<form method="post" action="mailto:mariepascalehardy@gmail.com">   
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
 								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />

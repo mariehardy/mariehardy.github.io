@@ -14,12 +14,14 @@ const IndexPage = () => (
         <div className="inner">
           <p>
           I'm a Frontend developer with fullstack abilities. 
-          I have a strong background in Graphic Design (web  & print) 
-          and three years of experience as Quality Assurance Engineer 
-          in an Agile environment. 
+          My background in Graphic Design and Quality Assurance 
+          Engineering gave me a razor-sharp eye for detail 
+          and an understanding of Agile methodology. 
+          I am eager to join a team where I can contribute 
+          with my creative and quality-oriented approach.
           </p>
           <p className="align-center">
-          <a href="https://drive.google.com/file/d/1owDyUME9is2mWMitQ2bZ_Op7OkQyFlw-/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/16nm1dAGh-NvrCdnqE7x8EqVERB_5PoE9/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -28,50 +30,18 @@ const IndexPage = () => (
           </p>
           <hr />
 
-          <ul className="actions fit">
-            <li></li>
-						<li>
-             <p>        
-             <strong>myStack:</strong> 
-             <br />
-             React, Redux, JavaScript, Typescript, Node.js, Mongo DB, CSS & HTML
-             </p>
-             </li>
-             <li></li>
-          </ul>
-          
-          <ul className="actions fit">
-            <li></li>
-						<li>
+          <p>      
+            <strong>myStack = </strong>
+            React, JavaScript, Typescript, Redux, Node.js, Mongo DB, CSS & HTML
+          </p>
             <div className="image">
             <img src={ironLogo} alt="Ironhack" height="90px" width="90px" />
-            </div>    
+            </div>   
+            <br /><br /> 
              <p>        
              Graduate of Ironhack Berlin - Web Dev Bootcamp
              </p>
-             </li>
-             <li></li>
-          </ul>
            
-      
-          {/* <section id="abouticons">
-          <ul className="icons">
-        {config.socialLinks.map(social => {
-          const { style, icon, name, url } = social;
-          return (
-            <li key={url}>
-              <a href={url} className={`icon ${style} ${icon}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="label">{name}</span>
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-      </section> */}
-      
         </div>
       </section>
 
