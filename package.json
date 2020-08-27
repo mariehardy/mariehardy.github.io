@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "Marie",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
+  "description": "Frontend developer with fullstack abilities. Stack: JavaScript, Typescript, React, Redux, Node.js, Mongo DB, CSS & HTML",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
+    "url": "git+https://github.com/mariehardy/mariehardy.github.io"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Marie Hardy",
+    "email": "mademoiselle.mph@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
